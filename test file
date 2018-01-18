@@ -1,0 +1,152 @@
+robertjringham 
+rkringham@gmail.com
+Capecod1
+
+
+
+https://github.com/githubschool/silver-spoon  
+https://github.com/githubschool/silver-spoon/invitations    
+
+- [x] Create an Issue	
+		
+git version   
+
+pwd 
+
+
+
+
+ https://github.com/githubschool/silver-spoon.git    
+
+Git checkout –b	xxxxx			
+checkout new branch xxxxx 
+Git Checkout master 
+Git Commit Git Checkout xxxxx					 
+Git Commit					make changes Git Commit Git Checkout –b zzzzz			
+checkout new branch zzzzz 
+Git merge zzzzz Git Checkout master . . .         
+
+
+
+git config --global user.name "Robert Ringham"
+git config --global email.name "Rkringham@gmail.com"
+git config --gobal core.autocrlf true
+git config --global core.editor "atom --wait"
+
+cd silver-spoon			c/users/elevated/silver-spoon
+
+git branch --all   (or -a)
+git checkout robertjringham-hometown
+git branch -a
+
+
+atom .			opens atom
+
+
+robertjringham-capecod.md				Favorite Food Places file
+
+git config --global --list
+
+git config --global fetch.prune true
+
+git config --global alias.lol "log --oneline --graph --decorate --all"
+
+$ git config --global --list
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Robert Ringham
+user.email=rkringham@gmail.com
+email.name=Rkringham@gmail.com
+core.editor=atom --wait
+fetch.prune=true
+alias.lol=log --oneline --graph --decorate --all
+alias.st=status
+
+
+https://robertjringham.github.io/github-games
+
+
+https://github.com/ROBERTJRINGHAM/github-games/
+
+
+https://git-scm.com/docs
+
+
+git log --oneline
+
+git revert xxxxxx
+
+git push --set-upstream origin index    (or -u  alias for --set-upstream)
+
+git branch -a 		show branches
+
+git diff --color-words master..stats-update
+
+
+
+(ctrl-r)  xxx		retreives last command based on xxx chars
+  or 
+use up & down arrows!
+
+git commit        if powershell message, do git commit --no-edit
+
+git show xxxx       show based on xxxx chars
+
+mkdir images
+git mv texture.jpg images/texture.jpg
+
+git add -p          changes in file 1 at a time
+
+
+
+git reset --xxxx branchname <sha>		--soft   --mixed  --hard
+
+
+
+cd ..
+
+git init practice
+cd practice
+touche readme.md
+git add readme.md
+git st
+git commit -m "Start repo with Readme"
+
+from https://github.com/githubschool/silver-spoon  
+in readme.md file at end:
+for d in {1..6}; do touch file$d.md; git add file$d.md; git commit -m "adding file $d"; done
+
+git log --oneline
+
+6 files 
+git reset --soft <sha from 3rd>             
+git log --oneline                                             shows adding file 3, 2, 1
+
+
+git reset --mixed         or git reset     (default) 
+
+git commit --amend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
